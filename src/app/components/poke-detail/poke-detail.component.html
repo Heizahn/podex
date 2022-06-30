@@ -1,0 +1,20 @@
+<mat-card class="card">
+
+    <mat-card-header>
+      <img mat-card-avatar class="header-image" src={{pokemonImg}}>
+      <mat-card-title>{{pokemon.name}}</mat-card-title>
+      <mat-card-subtitle>N° {{pokemon.id}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src={{pokemonImg}} alt="pokemon">
+   
+    <mat-card-content class="contenido">
+        <h2>{{pokemonType}}</h2>
+        <mat-chip-list class="coas">
+            <mat-chip color="warn" selected>HP: {{pokemonLife}}</mat-chip>
+            <mat-chip color="warn" selected>Height: {{pokemonHeight}}</mat-chip>
+            <mat-chip color="warn" selected>Hability: {{pokemonHabilidad}}</mat-chip>
+            <mat-chip color="warn" selected>EXP: {{pokemonEXP}}</mat-chip>
+        </mat-chip-list>
+    </mat-card-content>
+  </mat-card>
+  

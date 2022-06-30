@@ -1,0 +1,21 @@
+.card{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mat-card-header{
+    background-color: rgba(49, 45, 45, 0.555);
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+}
+
+.mat-card-title{
+    text-transform: uppercase;
+    color: rgb(6, 4, 20);
+}
+
+.mat-card-subtitle{
+    text-transform: uppercase;
+    color: rgb(224, 223, 231);
+}
